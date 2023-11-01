@@ -1,0 +1,397 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F5F5;
+    color: #131C47
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #2f2f2f;
+}
+button {
+    padding: 0;
+    margin: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+/*Register*/
+.register-page-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    min-height: 100vh;
+}
+.register-page-main-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 55%;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.register-page-main-block-content {
+
+}
+.register-page-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 10px;
+    color: #131C47;
+}
+
+.register-page-username-link-to-log {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.register-page-username-link-to-log p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #131C47;
+}
+.register-page-username-link-to-log a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 5px;
+    text-decoration: none;
+
+    color: #00B140;
+
+    transition: all .3s;
+}
+.register-page-username-link-to-log a:hover {
+    color: #00e854;
+    cursor: pointer;
+}
+
+.register-page-email-input {
+    background: #FFFFFF;
+    border: 0.6px solid #D6D6D6;
+    border-radius: 6px;
+    height: 70px;
+    width: 399px;
+    padding: 22px 16px;
+}
+
+.register-page-email-input:focus + .register-page-email-input-underline {
+    opacity: 1;
+}
+
+.register-page-email-input-underline {
+    position: relative;
+    top: -4px;
+    height: 4px;
+    opacity: 0;
+    width: 399px;
+    border-radius: 0 0 6px 6px;
+    background-color: #00B140;
+    transition: all .1s;
+}
+
+.register-page-email-input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #636363;
+}
+.register-page-email-input:focus {
+    border: 0.6px solid #D6D6D6;
+    outline: none;
+    box-shadow: none;
+}
+
+.register-page-email-block {
+    margin-bottom: 40px;
+}
+.register-page-email-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 18px;
+
+    color: #131C47;
+}
+
+.register-page-username-block {
+    margin-bottom: 40px;
+}
+.register-page-username-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 18px;
+
+    color: #131C47;
+}
+
+.register-page-username-input {
+    background: #FFFFFF;
+    border: 0.6px solid #D6D6D6;
+    border-radius: 6px;
+    height: 70px;
+    width: 399px;
+    padding: 22px 16px;
+}
+
+.register-page-username-input:focus + .register-page-username-input-underline {
+    opacity: 1;
+}
+
+.register-page-username-input-underline {
+    position: relative;
+    top: -4px;
+    height: 4px;
+    opacity: 0;
+    width: 399px;
+    border-radius: 0 0 6px 6px;
+    background-color: #00B140;
+    transition: all .1s;
+}
+
+.register-page-username-input:focus {
+    border: 0.6px solid #D6D6D6;
+    outline: none;
+    box-shadow: none;
+}
+.register-page-username-input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #636363;
+}
+
+.register-page-password-block {
+    margin-bottom: 28px;
+}
+.register-page-password-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 18px;
+
+    color: #131C47;
+}
+.register-page-password-input-block {
+    position: relative;
+}
+.register-page-password-input {
+    background: #FFFFFF;
+    border: 0.6px solid #D6D6D6;
+    border-radius: 6px;
+    height: 70px;
+    width: 399px;
+    padding: 22px 16px;
+}
+
+.register-page-password-input:focus + .register-page-password-input-underline {
+    opacity: 1;
+}
+
+.register-page-password-input-underline {
+    position: relative;
+    top: -4px;
+    height: 4px;
+    opacity: 0;
+    width: 399px;
+    border-radius: 0 0 6px 6px;
+    background-color: #00B140;
+    transition: all .1s;
+}
+
+.register-page-password-input:focus {
+    border: 0.6px solid #D6D6D6;
+    outline: none;
+    box-shadow: none;
+}
+.register-page-password-input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #636363;
+}
+.register-page-password-show {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.register-page-option-password-block {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+.register-page-password-remember {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.register-page-password-remember-checkbox {
+    margin-right: 11px;
+    appearance: none;
+    -webkit-appearance: none;
+
+    /*width: 15px;*/
+    /*height: 14px;*/
+    /*background-color: #D6D6D6;*/
+    /*border-radius: 2px;*/
+    /*cursor: pointer;*/
+
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+input[type="checkbox"] {
+    display: none;
+}
+
+.register-page-password-remember-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 156.5%;
+    padding-left: 11px;
+    color: #636363;
+}
+.register-page-password-remember-text:hover {
+    cursor: pointer;
+}
+.register-page-password-remember-text::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 14px;
+    background-color: #D6D6D6;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: -10px;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+    transition: background-color .2s;
+}
+input[type="checkbox"]:checked + label::before {
+    background-color: #00B140;
+    color: white;
+    background-image: url("../materials/icons/icon-checked-btn.png");
+    background-size: 100%;
+}
+
+.register-page-password-forgot {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.register-page-password-forgot a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #636363;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 300px;
+}
+
+input[type="password"] {
+    padding-right: 30px; /* увеличиваем правый отступ для размещения "глазика" */
+    width: 100%;
+}
+
+.register-page-password-show {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 30px;
+    content: "eye";
+    cursor: pointer;
+}
+.login-page-login-btn-block {
+    margin-top: 40px;
+}
+.register-page-login-btn {
+    background: #00B140;
+    box-shadow: 0px 4px 30px rgba(38, 58, 67, 0.15);
+    border-radius: 6px;
+    height: 70px;
+    width: 399px;
+    border: 0;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+    color: #FFFFFF;
+
+    transition: all .3s;
+}
+
+.register-page-register-btn-block {
+    margin-top: 40px;
+}
+.register-page-register-btn {
+    background: #00B140;
+    box-shadow: 0px 4px 30px rgba(38, 58, 67, 0.15);
+    border-radius: 6px;
+    height: 70px;
+    width: 399px;
+    border: 0;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+    color: #FFFFFF;
+
+    transition: all .3s;
+}
+.register-page-register-btn:hover {
+    background: #00d955;
+    cursor: pointer;
+}
+.register-page-logo-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 45%;
+    min-height: 100vh;
+    background-color: #131C47;
+}

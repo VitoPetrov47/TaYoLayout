@@ -1,0 +1,631 @@
+.main-review-edit-content {
+    display: grid;
+    grid-template-columns: 520px 520px;
+    row-gap: 30px;
+    column-gap: 10px;
+
+    margin-bottom: 30px;
+}
+/*INFO EDIT BLOCK*/
+.main-review-edit-content-information {
+
+}
+.main-review-edit-block-information {
+    height: 232px;
+}
+.main-review-edit-block-information h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #131C47;
+
+    margin-bottom: 15px;
+}
+.main-review-edit-block-information-content {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+    height: 200px;
+    width: 520px;
+
+    background: #F0F0F0;
+    border-radius: 6px;
+
+    padding: 20px;
+}
+.main-review-edit-block-information-content-title-key {}
+.main-review-edit-block-information-content-title-key p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+
+    color: #636363;
+}
+.main-review-edit-block-information-content-title-value {}
+.main-review-edit-block-information-content-title-value p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10px;
+
+    color: #131C47;
+}
+
+/*FORMAT*/
+.main-review-edit-block-format {
+
+}
+.main-review-edit-block-format h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #131C47;
+
+    margin-bottom: 15px;
+}
+.main-review-edit-block-format-content {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+    height: 200px;
+    width: 520px;
+
+    background: #F0F0F0;
+    border-radius: 6px;
+
+    padding: 20px;
+}
+.main-review-edit-block-format-content-title-key {}
+.main-review-edit-block-format-content-title-key p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+
+    color: #636363;
+}
+.main-review-edit-block-format-content-title-value {}
+.main-review-edit-block-format-content-title-value p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10px;
+
+    color: #131C47;
+}
+
+/*INTERIOR*/
+.main-review-edit-block-interior {
+
+}
+.main-review-edit-block-interior h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #131C47;
+
+    margin-bottom: 15px;
+}
+.main-review-edit-block-interior-content {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+
+    height: 80px;
+    width: 520px;
+
+    background: #F0F0F0;
+    border-radius: 6px;
+
+    padding: 20px;
+}
+.main-review-edit-block-interior-content p {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    flex-wrap: wrap;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #636363;
+}
+
+/*COVER*/
+.main-review-edit-block-cover {
+
+}
+.main-review-edit-block-cover {
+
+}
+.main-review-edit-block-cover h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #131C47;
+
+    margin-bottom: 15px;
+}
+.main-review-edit-block-cover-content {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+
+    height: 80px;
+    width: 520px;
+
+    background: #F0F0F0;
+    border-radius: 6px;
+
+    padding: 20px;
+}
+
+.main-review-button-design {
+    background: #00B140;
+    border-radius: 6px;
+
+    height: 40px;
+    width: 85px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    border: 0;
+    color: #FFFFFF;
+
+    transition: all .3s;
+}
+.main-review-button-design:hover {
+    background: #00e854;
+    cursor: pointer;
+}
+.main-review-edit-block-cover-content p {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    flex-wrap: wrap;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #636363;
+}
+/*DISTRIBUTION */
+.main-review-edit-block-distribution {
+
+}
+.main-review-edit-block-distribution h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #131C47;
+
+    margin-bottom: 15px;
+}
+.main-review-edit-block-distribution-content {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+    height: 140px;
+    width: 520px;
+
+    background: #F0F0F0;
+    border-radius: 6px;
+
+    padding: 20px;
+}
+.main-review-edit-block-distribution-content-title-key {
+
+}
+.main-review-edit-block-distribution-content-title-key p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+
+    color: #636363;
+}
+.main-review-edit-block-distribution-content-title-value {
+
+}
+.main-review-edit-block-distribution-content-title-value p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10px;
+
+    color: #131C47;
+}
+/*Pricing */
+.main-review-edit-block-pricing {
+
+}
+.main-review-edit-block-pricing h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #131C47;
+
+    margin-bottom: 15px;
+}
+.main-review-edit-block-pricing-content {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+    height: 140px;
+    width: 520px;
+
+    background: #F0F0F0;
+    border-radius: 6px;
+
+    padding: 20px;
+}
+.main-review-edit-block-pricing-content-title-key {
+
+}
+.main-review-edit-block-pricing-content-title-key p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+
+    color: #636363;
+}
+.main-review-edit-block-pricing-content-title-value {
+
+}
+.main-review-edit-block-pricing-content-title-value p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10px;
+
+    color: #131C47;
+}
+/*PUBLISHED AGREEMENT BLOCK*/
+.main-review-published-agreement-content {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    flex-direction: column;
+
+    margin-bottom: 15px;
+}
+.main-review-published-agreement-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #131C47;
+
+    margin-bottom: 15px;
+}
+.main-review-published-agreement-content-text {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    height: 64px;
+    width: 1050px;
+
+    background: #F0F0F0;
+    border-radius: 6px;
+
+    padding: 20px;
+}
+.main-review-published-agreement-text {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.main-review-published-agreement-text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #636363;
+}
+.main-review-published-agreement-text a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    margin-left: 5px;
+    color: #00B140;
+}
+
+/*ORDER CONTENT*/
+.main-review-order-content {
+
+}
+.main-review-order-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #131C47;
+}
+.main-review-order-subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #131C47;
+}
+.main-review-order-total-content {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+    height: 125px;
+    width: 1050px;
+
+    background: #F0F0F0;
+    border-radius: 6px;
+
+    padding: 30px 20px;
+    margin-top: 15px;
+}
+.main-review-order-total-content h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #131C47;
+}
+.main-review-order-total-content-info {
+    display: flex;
+    justify-content: right;
+    align-content: center;
+    flex-direction: column;
+}
+.main-review-order-total-content-info p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+    text-align: right;
+    margin-bottom: 15px;
+
+    color: #636363;
+}
+.main-review-order-total-content-info h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: right;
+
+    color: #131C47;
+}
+
+/*button edit main*/
+.main-review-edit-button-main {
+    border: 0;
+    background-color: transparent;
+
+    display: flex;
+    justify-content: right;
+    align-content: center;
+
+    transition: all .3s;
+}
+.main-review-edit-button-main label {
+    margin-right: 6px;
+
+    height: 9px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #00B140;
+
+    transition: all .3s;
+}
+.main-review-edit-button-main svg {
+    transition: all .3s;
+}
+.main-review-edit-button-main svg path {
+    transition: all .3s;
+}
+.main-review-edit-button-main:hover {
+    cursor: pointer;
+}
+.main-review-edit-button-main:hover label {
+    cursor: pointer;
+    color: #00e854;
+}
+.main-review-edit-button-main:hover svg path {
+    cursor: pointer;
+    stroke: #00e854;
+}
+
+/*MODAL WINDOW*/
+.modal-interior-overlay {
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-interior {
+    background-color: #fff;
+    display: none;
+
+    height: 680px;
+    width: 924px;
+    border-radius: 0px;
+}
+.modal-interior .modal-interior-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-interior-overlay--visible {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-interior--visible {
+    display: block;
+}
+
+.modal-interior-content-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 54px;
+    width: 924px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 13px -3px rgba(0, 0, 0, 0.07);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 13px 20px 13px 25px;
+}
+.modal-interior-content-nav-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #131C47;
+}
+.modal-interior-content-nav-content-buttons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+/*cover*/
+.modal-cover-overlay {
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-cover {
+    background-color: #fff;
+    display: none;
+
+    height: 680px;
+    width: 924px;
+    border-radius: 0px;
+}
+.modal-cover .modal-cover-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-cover-overlay--visible {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-cover--visible {
+    display: block;
+}
+
+.modal-cover-content-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 54px;
+    width: 924px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 13px -3px rgba(0, 0, 0, 0.07);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 13px 20px 13px 25px;
+}
+.modal-cover-content-nav-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #131C47;
+}
+.modal-cover-content-nav-content-buttons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}

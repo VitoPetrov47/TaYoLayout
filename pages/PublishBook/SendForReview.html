@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../assets/style/style.css">
+    <link rel="stylesheet" href="../../assets/style/review.css">
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+    <!-- Bootstrap launch -->
+    <!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">-->
+    <!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">-->
+    <!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>-->
+    <title>Send For Review</title>
+</head>
+<body>
+<div class="sidebar-main">
+    <div class="sidebar-menu-content">
+        <div class="">
+            <a href="#">
+                <img src="../../assets/materials/icons/icon-logo-main.png">
+            </a>
+        </div>
+        <div class="sidebar-title">
+            <h3 class="sidebar-title-text">Menu</h3>
+        </div>
+        <div class="sidebar-dashboard sidebar-navigation">
+            <a class="sidebar-dashboard-link" href="../../pages/Dashboard.html">
+                <svg width="18"
+                     height="17"
+                     viewBox="0 0 18 17"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.10322 0.956253H2.53135C1.5751 0.956253 0.787598 1.74375 0.787598 2.7V6.27188C0.787598 7.22813 1.5751 8.01563 2.53135 8.01563H6.10322C7.05947 8.01563 7.84697 7.22813 7.84697 6.27188V2.72813C7.8751 1.74375 7.0876 0.956253 6.10322 0.956253ZM6.60947 6.3C6.60947 6.58125 6.38447 6.80625 6.10322 6.80625H2.53135C2.2501 6.80625 2.0251 6.58125 2.0251 6.3V2.72813C2.0251 2.44688 2.2501 2.22188 2.53135 2.22188H6.10322C6.38447 2.22188 6.60947 2.44688 6.60947 2.72813V6.3Z" fill="#131C47"/>
+                    <path d="M15.4689 0.956253H11.8971C10.9408 0.956253 10.1533 1.74375 10.1533 2.7V6.27188C10.1533 7.22813 10.9408 8.01563 11.8971 8.01563H15.4689C16.4252 8.01563 17.2127 7.22813 17.2127 6.27188V2.72813C17.2127 1.74375 16.4252 0.956253 15.4689 0.956253ZM15.9752 6.3C15.9752 6.58125 15.7502 6.80625 15.4689 6.80625H11.8971C11.6158 6.80625 11.3908 6.58125 11.3908 6.3V2.72813C11.3908 2.44688 11.6158 2.22188 11.8971 2.22188H15.4689C15.7502 2.22188 15.9752 2.44688 15.9752 2.72813V6.3Z" fill="#131C47"/>
+                    <path d="M6.10322 9.92813H2.53135C1.5751 9.92813 0.787598 10.7156 0.787598 11.6719V15.2438C0.787598 16.2 1.5751 16.9875 2.53135 16.9875H6.10322C7.05947 16.9875 7.84697 16.2 7.84697 15.2438V11.7C7.8751 10.7156 7.0876 9.92813 6.10322 9.92813ZM6.60947 15.2719C6.60947 15.5531 6.38447 15.7781 6.10322 15.7781H2.53135C2.2501 15.7781 2.0251 15.5531 2.0251 15.2719V11.7C2.0251 11.4188 2.2501 11.1938 2.53135 11.1938H6.10322C6.38447 11.1938 6.60947 11.4188 6.60947 11.7V15.2719Z" fill="#131C47"/>
+                    <path d="M15.4689 9.92813H11.8971C10.9408 9.92813 10.1533 10.7156 10.1533 11.6719V15.2438C10.1533 16.2 10.9408 16.9875 11.8971 16.9875H15.4689C16.4252 16.9875 17.2127 16.2 17.2127 15.2438V11.7C17.2127 10.7156 16.4252 9.92813 15.4689 9.92813ZM15.9752 15.2719C15.9752 15.5531 15.7502 15.7781 15.4689 15.7781H11.8971C11.6158 15.7781 11.3908 15.5531 11.3908 15.2719V11.7C11.3908 11.4188 11.6158 11.1938 11.8971 11.1938H15.4689C15.7502 11.1938 15.9752 11.4188 15.9752 11.7V15.2719Z" fill="#131C47"/>
+                </svg>
+                <label>Dashboard</label>
+            </a>
+        </div>
+        <div class="publish-custom-menu sidebar-navigation">
+            <button id="publishBook" class="side-publish-book-btn">
+                <svg width="18"
+                     height="21"
+                     viewBox="0 0 18 21"
+                     fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.434246 6.50935H1.278C1.44675 6.50935 1.55925 6.39685 1.58737 6.31247L1.98112 5.3281H4.90612L5.27175 6.31247C5.328 6.48122 5.46862 6.50935 5.58112 6.50935H6.453C6.76237 6.48122 6.87487 6.25622 6.76237 6.03122L4.428 0.434347C4.37175 0.265597 4.3155 0.237473 4.14675 0.237473H2.88112C2.76862 0.237473 2.59987 0.293722 2.57175 0.434347L0.152996 6.08747C0.0404962 6.28435 0.209246 6.50935 0.434246 6.50935ZM3.47175 1.98122L4.3155 4.17497H2.59987L3.47175 1.98122Z" fill="#131C47"/>
+                    <path d="M9.1249 1.5031H15.8749C16.2124 1.5031 16.5218 1.22185 16.5218 0.856226C16.5218 0.490601 16.2405 0.209351 15.8749 0.209351H9.1249C8.7874 0.209351 8.47803 0.490601 8.47803 0.856226C8.47803 1.22185 8.75928 1.5031 9.1249 1.5031Z" fill="#131C47"/>
+                    <path d="M15.8749 5.21561H9.1249C8.7874 5.21561 8.47803 5.49686 8.47803 5.86248C8.47803 6.22811 8.75928 6.50936 9.1249 6.50936H15.8749C16.2124 6.50936 16.5218 6.22811 16.5218 5.86248C16.5218 5.49686 16.2124 5.21561 15.8749 5.21561Z" fill="#131C47"/>
+                    <path d="M15.875 10.1656H0.771875C0.434375 10.1656 0.125 10.4469 0.125 10.8125C0.125 11.1781 0.40625 11.4594 0.771875 11.4594H15.875C16.2125 11.4594 16.5219 11.1781 16.5219 10.8125C16.5219 10.4469 16.2125 10.1656 15.875 10.1656Z" fill="#131C47"/>
+                    <path d="M15.875 15.1156H0.771875C0.434375 15.1156 0.125 15.3969 0.125 15.7625C0.125 16.1281 0.40625 16.4094 0.771875 16.4094H15.875C16.2125 16.4094 16.5219 16.1281 16.5219 15.7625C16.5219 15.3969 16.2125 15.1156 15.875 15.1156Z" fill="#131C47"/>
+                </svg>
+                <label>Publish a Book</label>
+                <img class="side-nav-arrow" src="../../assets/materials/icons/icon-nav-arrow.png">
+            </button>
+            <div class="sub-publish-menu">
+                <a class="side-nav-info-link side-nav-link" href="../../pages/PublishBook/Information.html">
+                    <img class="side-nav-info-info-checked" src="../../assets/materials/icons/icon-nav-checked.png">
+                    <label>Information</label>
+                </a>
+                <a class="side-nav-bookFormat-link side-nav-link" href="../../pages/PublishBook/BookFormat.html">
+                    <img class="side-nav-bookFormat-info-checked" src="../../assets/materials/icons/icon-nav-checked.png">
+                    <label>Book Format</label>
+                </a>
+                <a class="side-nav-manuscript-link side-nav-link" href="../../pages/PublishBook/ManuscriptUpload.html">
+                    <img class="side-nav-manuscript-info-checked" src="../../assets/materials/icons/icon-nav-checked.png">
+                    <label>Manuscript Upload</label>
+                </a>
+                <a class="side-nav-distribution-link side-nav-link" href="../../pages/PublishBook/DistributionPricing.html">
+                    <img class="side-nav-distribution-info-checked" src="../../assets/materials/icons/icon-nav-checked.png">
+                    <label>Distribution & Pricing</label>
+                </a>
+                <a class="side-nav-additional-link side-nav-link" href="../../pages/PublishBook/AdditionalInfo.html">
+                    <img class="side-nav-additional-info-checked" src="../../assets/materials/icons/icon-nav-checked.png">
+                    <label>Additional Info</label>
+                </a>
+                <a class="side-nav-review-link side-nav-link" href="../../pages/PublishBook/SendForReview.html">
+                    <img class="side-nav-review-info-checked" src="../../assets/materials/icons/icon-nav-checked.png">
+                    <label>Send for Review</label>
+                </a>
+            </div>
+        </div>
+        <div class="sidebar-my-books sidebar-navigation">
+            <a class="sidebar-my-books-link" href="../../pages/MyBooks.html">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_108_313)">
+                        <path d="M3.45977 -0.015625H1.68789C1.04102 -0.015625 0.478516 0.51875 0.478516 1.19375V2.96563C0.478516 3.6125 1.01289 4.175 1.68789 4.175H3.45977C4.10664 4.175 4.66914 3.64063 4.66914 2.96563V1.16562C4.64102 0.51875 4.10664 -0.015625 3.45977 -0.015625ZM3.37539 2.88125H1.77227V1.25H3.37539V2.88125Z" fill="#131C47"/>
+                        <path d="M7.22891 2.71245H16.8758C17.2133 2.71245 17.5227 2.4312 17.5227 2.06558C17.5227 1.69995 17.2414 1.4187 16.8758 1.4187H7.22891C6.89141 1.4187 6.58203 1.69995 6.58203 2.06558C6.58203 2.4312 6.89141 2.71245 7.22891 2.71245Z" fill="#131C47"/>
+                        <path d="M3.45977 5.75H1.68789C1.04102 5.75 0.478516 6.28437 0.478516 6.95937V8.73125C0.478516 9.37812 1.01289 9.94063 1.68789 9.94063H3.45977C4.10664 9.94063 4.66914 9.40625 4.66914 8.73125V6.95937C4.64102 6.28437 4.10664 5.75 3.45977 5.75ZM3.37539 8.64687H1.77227V7.01562H3.37539V8.64687Z" fill="#131C47"/>
+                        <path d="M16.8758 7.21252H7.22891C6.89141 7.21252 6.58203 7.49377 6.58203 7.8594C6.58203 8.22502 6.86328 8.47815 7.22891 8.47815H16.8758C17.2133 8.47815 17.5227 8.1969 17.5227 7.8594C17.5227 7.5219 17.2133 7.21252 16.8758 7.21252Z" fill="#131C47"/>
+                        <path d="M3.45977 11.8531H1.68789C1.04102 11.8531 0.478516 12.3875 0.478516 13.0625V14.8344C0.478516 15.4813 1.01289 16.0438 1.68789 16.0438H3.45977C4.10664 16.0438 4.66914 15.5094 4.66914 14.8344V13.0625C4.64102 12.3875 4.10664 11.8531 3.45977 11.8531ZM3.37539 14.75H1.77227V13.1188H3.37539V14.75Z" fill="#131C47"/>
+                        <path d="M16.8758 13.2875H7.22891C6.89141 13.2875 6.58203 13.5687 6.58203 13.9344C6.58203 14.3 6.86328 14.5812 7.22891 14.5812H16.8758C17.2133 14.5812 17.5227 14.3 17.5227 13.9344C17.5227 13.5687 17.2133 13.2875 16.8758 13.2875Z" fill="#131C47"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_108_313">
+                            <rect width="18" height="18" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+                <label>My Books</label>
+            </a>
+        </div>
+    </div>
+    <div class="sidebar-logout">
+        <a class="sidebar-logout-btn" href="#">
+            <svg width="18"
+                 height="18"
+                 viewBox="0 0 18 18"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.7125 0.506226H9.53433C8.80308 0.506226 8.18433 1.12498 8.18433 1.85623V3.79685C8.18433 4.13435 8.46558 4.4156 8.80308 4.4156C9.14058 4.4156 9.44995 4.13435 9.44995 3.79685V1.8281C9.44995 1.77185 9.47808 1.74373 9.53433 1.74373H12.7125C13.3875 1.74373 13.9218 2.2781 13.9218 2.9531V15.0187C13.9218 15.6937 13.3875 16.2281 12.7125 16.2281H9.53433C9.47808 16.2281 9.44995 16.2 9.44995 16.1437V14.2031C9.44995 13.8656 9.1687 13.5844 8.80308 13.5844C8.43745 13.5844 8.18433 13.8656 8.18433 14.2031V16.1437C8.18433 16.875 8.80308 17.4937 9.53433 17.4937H12.7125C14.0906 17.4937 15.1875 16.3687 15.1875 15.0187V2.98123C15.1875 1.6031 14.0625 0.506226 12.7125 0.506226Z" fill="#131C47"/>
+                <path d="M10.4343 8.54999L7.62183 5.68124C7.3687 5.42811 6.97495 5.42811 6.72183 5.68124C6.4687 5.93436 6.4687 6.32811 6.72183 6.58124L8.46558 8.35311H3.45933C3.12183 8.35311 2.84058 8.63436 2.84058 8.97186C2.84058 9.30936 3.12183 9.59061 3.45933 9.59061H8.4937L6.72183 11.3906C6.4687 11.6437 6.4687 12.0375 6.72183 12.2906C6.83433 12.4031 7.00308 12.4594 7.17183 12.4594C7.34058 12.4594 7.50933 12.4031 7.62183 12.2625L10.4343 9.39374C10.6875 9.19686 10.6875 8.80311 10.4343 8.54999Z" fill="#131C47"/>
+            </svg>
+            <label>Log Out</label>
+        </a>
+    </div>
+</div>
+<main class="main-page">
+    <header class="header-main">
+        <h2 class="main-review-title">Send For Review</h2>
+    </header>
+    <main class="main-main">
+        <div class="main-review-edit-content">
+            <div class="main-review-edit-block-information">
+                <h3>Information</h3>
+                <div class="main-review-edit-block-information-content">
+                    <div class="main-review-edit-block-information-content-title-key">
+                        <p>Book Type</p>
+                        <p style="padding-top: 20px;">Book Language:</p>
+                        <p style="padding-top: 20px;">Book Title:</p>
+                        <p style="padding-top: 20px;">Book Subtitle:</p>
+                        <p style="padding-top: 20px;">Author Name:</p>
+                        <p style="padding-top: 20px;">Book Genre:</p>
+                    </div>
+                    <div class="main-review-edit-block-information-content-title-value">
+                        <p>Paper Book, E-Book</p>
+                        <p style="padding-top: 20px">English</p>
+                        <p style="padding-top: 20px">"The Power of Habits"</p>
+                        <p style="padding-top: 20px">How to Change Life with Small Actions</p>
+                        <p style="padding-top: 20px">Hannah Peterson</p>
+                        <p style="padding-top: 20px">Fiction</p>
+                    </div>
+                    <button class="main-review-edit-button-main">
+                        <label>Edit</label>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.2717 2.98294L13.016 4.72637M12.3934 1.44704L7.67698 6.16344C7.43328 6.4068 7.26708 6.71685 7.19932 7.05451L6.76367 9.23524L8.9444 8.79876C9.28205 8.73123 9.5917 8.5657 9.83547 8.32194L14.5519 3.60553C14.6936 3.4638 14.806 3.29555 14.8827 3.11037C14.9594 2.92519 14.9989 2.72672 14.9989 2.52629C14.9989 2.32585 14.9594 2.12738 14.8827 1.9422C14.806 1.75702 14.6936 1.58877 14.5519 1.44704C14.4101 1.30531 14.2419 1.19288 14.0567 1.11618C13.8715 1.03948 13.6731 1 13.4726 1C13.2722 1 13.0737 1.03948 12.8885 1.11618C12.7034 1.19288 12.5351 1.30531 12.3934 1.44704V1.44704Z" stroke="#00B140" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.3531 10.8823V13.3529C13.3531 13.7898 13.1795 14.2087 12.8707 14.5176C12.5618 14.8265 12.1428 15 11.706 15H2.64708C2.21024 15 1.7913 14.8265 1.48242 14.5176C1.17353 14.2087 1 13.7898 1 13.3529V4.29402C1 3.85719 1.17353 3.43825 1.48242 3.12936C1.7913 2.82047 2.21024 2.64694 2.64708 2.64694H5.11769" stroke="#00B140" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="main-review-edit-block-format" style="height: 232px;">
+                <h3>Book Format</h3>
+                <div class="main-review-edit-block-format-content">
+                    <div class="main-review-edit-block-format-content-title-key">
+                        <p>Book Size:</p>
+                        <p style="padding-top: 20px;">Book Interior:</p>
+                        <p style="padding-top: 20px;">Paper Type:</p>
+                        <p style="padding-top: 20px;">Binding:</p>
+                        <p style="padding-top: 20px;">Cover:</p>
+                    </div>
+                    <div class="main-review-edit-block-format-content-title-value">
+                        <p>5.5 x 8.5</p>
+                        <p style="padding-top: 20px">Black & White</p>
+                        <p style="padding-top: 20px">White Paper</p>
+                        <p style="padding-top: 20px">Paperback</p>
+                        <p style="padding-top: 20px">Matte Finish</p>
+                    </div>
+                    <button class="main-review-edit-button-main">
+                        <label>Edit</label>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.2717 2.98294L13.016 4.72637M12.3934 1.44704L7.67698 6.16344C7.43328 6.4068 7.26708 6.71685 7.19932 7.05451L6.76367 9.23524L8.9444 8.79876C9.28205 8.73123 9.5917 8.5657 9.83547 8.32194L14.5519 3.60553C14.6936 3.4638 14.806 3.29555 14.8827 3.11037C14.9594 2.92519 14.9989 2.72672 14.9989 2.52629C14.9989 2.32585 14.9594 2.12738 14.8827 1.9422C14.806 1.75702 14.6936 1.58877 14.5519 1.44704C14.4101 1.30531 14.2419 1.19288 14.0567 1.11618C13.8715 1.03948 13.6731 1 13.4726 1C13.2722 1 13.0737 1.03948 12.8885 1.11618C12.7034 1.19288 12.5351 1.30531 12.3934 1.44704V1.44704Z" stroke="#00B140" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.3531 10.8823V13.3529C13.3531 13.7898 13.1795 14.2087 12.8707 14.5176C12.5618 14.8265 12.1428 15 11.706 15H2.64708C2.21024 15 1.7913 14.8265 1.48242 14.5176C1.17353 14.2087 1 13.7898 1 13.3529V4.29402C1 3.85719 1.17353 3.43825 1.48242 3.12936C1.7913 2.82047 2.21024 2.64694 2.64708 2.64694H5.11769" stroke="#00B140" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="main-review-edit-block-interior" style="height: 112px;">
+                <h3>Interior Design</h3>
+                <div class="main-review-edit-block-interior-content">
+                    <p>Review Interior Design:</p>
+                    <button id="showModalReviewInterior" class="main-review-button-design">Review</button>
+                    <button class="main-review-edit-button-main">
+                        <label>Edit</label>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.2717 2.98294L13.016 4.72637M12.3934 1.44704L7.67698 6.16344C7.43328 6.4068 7.26708 6.71685 7.19932 7.05451L6.76367 9.23524L8.9444 8.79876C9.28205 8.73123 9.5917 8.5657 9.83547 8.32194L14.5519 3.60553C14.6936 3.4638 14.806 3.29555 14.8827 3.11037C14.9594 2.92519 14.9989 2.72672 14.9989 2.52629C14.9989 2.32585 14.9594 2.12738 14.8827 1.9422C14.806 1.75702 14.6936 1.58877 14.5519 1.44704C14.4101 1.30531 14.2419 1.19288 14.0567 1.11618C13.8715 1.03948 13.6731 1 13.4726 1C13.2722 1 13.0737 1.03948 12.8885 1.11618C12.7034 1.19288 12.5351 1.30531 12.3934 1.44704V1.44704Z" stroke="#00B140" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.3531 10.8823V13.3529C13.3531 13.7898 13.1795 14.2087 12.8707 14.5176C12.5618 14.8265 12.1428 15 11.706 15H2.64708C2.21024 15 1.7913 14.8265 1.48242 14.5176C1.17353 14.2087 1 13.7898 1 13.3529V4.29402C1 3.85719 1.17353 3.43825 1.48242 3.12936C1.7913 2.82047 2.21024 2.64694 2.64708 2.64694H5.11769" stroke="#00B140" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="main-review-edit-block-cover" style="height: 112px;">
+                <h3>Cover Design</h3>
+                <div class="main-review-edit-block-cover-content">
+                    <p>Review Cover Design:</p>
+                    <button id="showModalReviewCover" class="main-review-button-design">Review</button>
+                    <button class="main-review-edit-button-main">
+                        <label>Edit</label>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.2717 2.98294L13.016 4.72637M12.3934 1.44704L7.67698 6.16344C7.43328 6.4068 7.26708 6.71685 7.19932 7.05451L6.76367 9.23524L8.9444 8.79876C9.28205 8.73123 9.5917 8.5657 9.83547 8.32194L14.5519 3.60553C14.6936 3.4638 14.806 3.29555 14.8827 3.11037C14.9594 2.92519 14.9989 2.72672 14.9989 2.52629C14.9989 2.32585 14.9594 2.12738 14.8827 1.9422C14.806 1.75702 14.6936 1.58877 14.5519 1.44704C14.4101 1.30531 14.2419 1.19288 14.0567 1.11618C13.8715 1.03948 13.6731 1 13.4726 1C13.2722 1 13.0737 1.03948 12.8885 1.11618C12.7034 1.19288 12.5351 1.30531 12.3934 1.44704V1.44704Z" stroke="#00B140" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.3531 10.8823V13.3529C13.3531 13.7898 13.1795 14.2087 12.8707 14.5176C12.5618 14.8265 12.1428 15 11.706 15H2.64708C2.21024 15 1.7913 14.8265 1.48242 14.5176C1.17353 14.2087 1 13.7898 1 13.3529V4.29402C1 3.85719 1.17353 3.43825 1.48242 3.12936C1.7913 2.82047 2.21024 2.64694 2.64708 2.64694H5.11769" stroke="#00B140" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="main-review-edit-block-distribution" style="height: 172px;">
+                <h3>Distribution</h3>
+                <div class="main-review-edit-block-distribution-content">
+                    <div class="main-review-edit-block-distribution-content-title-key">
+                        <p>Package Name:</p>
+                        <p style="padding-top: 20px">ISBN: </p>
+                    </div>
+                    <div class="main-review-edit-block-distribution-content-title-value">
+                        <p>Standard</p>
+                        <p style="padding-top: 20px">Selected, will be allotted after review </p>
+                    </div>
+                    <button class="main-review-edit-button-main">
+                        <label>Edit</label>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.2717 2.98294L13.016 4.72637M12.3934 1.44704L7.67698 6.16344C7.43328 6.4068 7.26708 6.71685 7.19932 7.05451L6.76367 9.23524L8.9444 8.79876C9.28205 8.73123 9.5917 8.5657 9.83547 8.32194L14.5519 3.60553C14.6936 3.4638 14.806 3.29555 14.8827 3.11037C14.9594 2.92519 14.9989 2.72672 14.9989 2.52629C14.9989 2.32585 14.9594 2.12738 14.8827 1.9422C14.806 1.75702 14.6936 1.58877 14.5519 1.44704C14.4101 1.30531 14.2419 1.19288 14.0567 1.11618C13.8715 1.03948 13.6731 1 13.4726 1C13.2722 1 13.0737 1.03948 12.8885 1.11618C12.7034 1.19288 12.5351 1.30531 12.3934 1.44704V1.44704Z" stroke="#00B140" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.3531 10.8823V13.3529C13.3531 13.7898 13.1795 14.2087 12.8707 14.5176C12.5618 14.8265 12.1428 15 11.706 15H2.64708C2.21024 15 1.7913 14.8265 1.48242 14.5176C1.17353 14.2087 1 13.7898 1 13.3529V4.29402C1 3.85719 1.17353 3.43825 1.48242 3.12936C1.7913 2.82047 2.21024 2.64694 2.64708 2.64694H5.11769" stroke="#00B140" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="main-review-edit-block-pricing" style="height: 172px;">
+                <h3>Pricing</h3>
+                <div class="main-review-edit-block-pricing-content">
+                    <div class="main-review-edit-block-pricing-content-title-key">
+                        <p>Production Cost:</p>
+                        <p style="padding-top: 20px">Retail Price:</p>
+                        <p style="padding-top: 20px">Royalty: </p>
+                    </div>
+                    <div class="main-review-edit-block-pricing-content-title-value">
+                        <p>2.99$</p>
+                        <p style="padding-top: 20px">18$</p>
+                        <p style="padding-top: 20px">eGhota Store - 6$</p>
+                        <p style="padding-top: 20px">Other Stores - 4$</p>
+                    </div>
+                    <button class="main-review-edit-button-main">
+                        <label>Edit</label>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.2717 2.98294L13.016 4.72637M12.3934 1.44704L7.67698 6.16344C7.43328 6.4068 7.26708 6.71685 7.19932 7.05451L6.76367 9.23524L8.9444 8.79876C9.28205 8.73123 9.5917 8.5657 9.83547 8.32194L14.5519 3.60553C14.6936 3.4638 14.806 3.29555 14.8827 3.11037C14.9594 2.92519 14.9989 2.72672 14.9989 2.52629C14.9989 2.32585 14.9594 2.12738 14.8827 1.9422C14.806 1.75702 14.6936 1.58877 14.5519 1.44704C14.4101 1.30531 14.2419 1.19288 14.0567 1.11618C13.8715 1.03948 13.6731 1 13.4726 1C13.2722 1 13.0737 1.03948 12.8885 1.11618C12.7034 1.19288 12.5351 1.30531 12.3934 1.44704V1.44704Z" stroke="#00B140" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.3531 10.8823V13.3529C13.3531 13.7898 13.1795 14.2087 12.8707 14.5176C12.5618 14.8265 12.1428 15 11.706 15H2.64708C2.21024 15 1.7913 14.8265 1.48242 14.5176C1.17353 14.2087 1 13.7898 1 13.3529V4.29402C1 3.85719 1.17353 3.43825 1.48242 3.12936C1.7913 2.82047 2.21024 2.64694 2.64708 2.64694H5.11769" stroke="#00B140" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-review-published-agreement-content">
+            <h3 class="main-review-published-agreement-title">eGhota Publishing Agreement</h3>
+            <div class="main-review-published-agreement-content-text">
+                <input style="margin-right: 15px;" type="checkbox">
+                <div class="main-review-published-agreement-text">
+                    <p>I have reviewed the interior and cover files and agree to the</p>
+                    <a href="#">eGhota Publishing Agreement</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-review-order-content">
+            <h2 class="main-review-order-title">Review Your Order</h2>
+            <h3 class="main-review-order-subtitle">Review your order details and make payment to continue publishing your book.</h3>
+            <div class="main-review-order-total-content">
+                <h2>Standard</h2>
+                <div class="main-review-order-total-content-info">
+                    <p>170.00 $</p>
+                    <p>GST (18%) 30.60 $</p>
+                    <h3>Total Price: 200.60 $</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="main-modal-interior">
+        <div class="modal-interior-overlay">
+            <div class="modal-interior modal-interior--1 " data-target="form-popup-interior">
+                <div class="modal-interior-content">
+                    <nav class="modal-interior-content-nav">
+                        <h2 class="modal-interior-content-nav-title">Book Review</h2>
+                        <div class="modal-interior-content-nav-content-buttons">
+                            <a class="modal-interior-content-nav-button-increase" style="margin-right: 25px">
+                                <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.89778 0.0112724C6.08376 0.107561 5.51572 0.233875 4.94307 0.445922C3.10079 1.12804 1.61955 2.46702 0.757016 4.22989C-0.940064 7.69841 0.302507 11.9076 3.62118 13.9321C5.56901 15.1204 8.02823 15.3531 10.1447 14.5494C10.5351 14.4011 11.1839 14.0812 11.4859 13.8879L11.6974 13.7527L14.6437 16.8191C16.8473 19.1125 17.6272 19.9005 17.7374 19.945C18.0756 20.0814 18.4077 19.9589 18.5756 19.636C18.6528 19.4876 18.6517 19.1887 18.5734 19.0436C18.5395 18.9808 17.2095 17.5763 15.6179 15.9227L12.7241 12.9162L13.016 12.6106C13.5579 12.0435 14.05 11.3022 14.3816 10.5537C16.0369 6.81699 14.4141 2.46651 10.7095 0.709456C10.0589 0.400885 9.47597 0.218198 8.71566 0.084574C8.37922 0.0254636 7.18497 -0.0227005 6.89778 0.0112724ZM8.74541 1.43258C11.2057 1.96149 13.06 3.8135 13.5877 6.26905C13.7164 6.8677 13.7336 7.87617 13.6261 8.50692C12.9156 12.6738 8.40936 14.9374 4.67223 13.0047C2.27884 11.7669 0.953739 9.11405 1.40735 6.46858C1.83989 3.94607 3.79671 1.93287 6.29984 1.4352C6.84872 1.32609 6.88343 1.32359 7.66012 1.33774C8.18871 1.34736 8.45878 1.37097 8.74541 1.43258ZM7.31433 3.5233C7.23169 3.55348 7.11945 3.61924 7.06495 3.66948C6.86475 3.85396 6.85869 3.90545 6.85869 5.42102V6.82966L5.51971 6.8306C4.78325 6.8311 4.11173 6.84752 4.02737 6.86707C3.84018 6.91051 3.70191 7.00902 3.58107 7.1851C3.50475 7.29633 3.49228 7.35555 3.50542 7.54364C3.52219 7.78336 3.59432 7.91609 3.78526 8.0587C3.88913 8.1363 3.9484 8.13974 5.37459 8.15042L6.85599 8.16156L6.86713 9.63909L6.87824 11.1167L6.9909 11.2643C7.26742 11.6267 7.84077 11.598 8.0823 11.2097C8.16635 11.0746 8.16862 11.0375 8.17992 9.61512L8.19145 8.15886H9.62105C11.0239 8.15886 11.0535 8.15726 11.2045 8.07239C11.5114 7.8999 11.6246 7.53007 11.4645 7.22291C11.3579 7.01821 11.2299 6.91598 11.0192 6.86707C10.9348 6.84752 10.2633 6.8311 9.52687 6.8306L8.18789 6.82966L8.18617 5.45159C8.18437 4.00854 8.17096 3.87781 8.00599 3.69551C7.8398 3.51185 7.54604 3.4387 7.31433 3.5233Z" fill="#636363"/>
+                                </svg>
+                            </a>
+                            <a class="modal-interior-content-nav-button-close">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.00244 1L15.0024 15" stroke="#636363" stroke-width="1.6" stroke-linecap="round"/>
+                                    <path d="M15.002 1L1.00198 15" stroke="#636363" stroke-width="1.6" stroke-linecap="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-modal-cover">
+        <div class="modal-cover-overlay">
+            <div class="modal-cover modal-cover--1 " data-target="form-popup-cover">
+                <div class="modal-cover-content">
+                    <nav class="modal-cover-content-nav">
+                        <h2 class="modal-cover-content-nav-title">Book Review</h2>
+                        <div class="modal-cover-content-nav-content-buttons">
+                            <a class="modal-cover-content-nav-button-increase" style="margin-right: 25px">
+                                <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.89778 0.0112724C6.08376 0.107561 5.51572 0.233875 4.94307 0.445922C3.10079 1.12804 1.61955 2.46702 0.757016 4.22989C-0.940064 7.69841 0.302507 11.9076 3.62118 13.9321C5.56901 15.1204 8.02823 15.3531 10.1447 14.5494C10.5351 14.4011 11.1839 14.0812 11.4859 13.8879L11.6974 13.7527L14.6437 16.8191C16.8473 19.1125 17.6272 19.9005 17.7374 19.945C18.0756 20.0814 18.4077 19.9589 18.5756 19.636C18.6528 19.4876 18.6517 19.1887 18.5734 19.0436C18.5395 18.9808 17.2095 17.5763 15.6179 15.9227L12.7241 12.9162L13.016 12.6106C13.5579 12.0435 14.05 11.3022 14.3816 10.5537C16.0369 6.81699 14.4141 2.46651 10.7095 0.709456C10.0589 0.400885 9.47597 0.218198 8.71566 0.084574C8.37922 0.0254636 7.18497 -0.0227005 6.89778 0.0112724ZM8.74541 1.43258C11.2057 1.96149 13.06 3.8135 13.5877 6.26905C13.7164 6.8677 13.7336 7.87617 13.6261 8.50692C12.9156 12.6738 8.40936 14.9374 4.67223 13.0047C2.27884 11.7669 0.953739 9.11405 1.40735 6.46858C1.83989 3.94607 3.79671 1.93287 6.29984 1.4352C6.84872 1.32609 6.88343 1.32359 7.66012 1.33774C8.18871 1.34736 8.45878 1.37097 8.74541 1.43258ZM7.31433 3.5233C7.23169 3.55348 7.11945 3.61924 7.06495 3.66948C6.86475 3.85396 6.85869 3.90545 6.85869 5.42102V6.82966L5.51971 6.8306C4.78325 6.8311 4.11173 6.84752 4.02737 6.86707C3.84018 6.91051 3.70191 7.00902 3.58107 7.1851C3.50475 7.29633 3.49228 7.35555 3.50542 7.54364C3.52219 7.78336 3.59432 7.91609 3.78526 8.0587C3.88913 8.1363 3.9484 8.13974 5.37459 8.15042L6.85599 8.16156L6.86713 9.63909L6.87824 11.1167L6.9909 11.2643C7.26742 11.6267 7.84077 11.598 8.0823 11.2097C8.16635 11.0746 8.16862 11.0375 8.17992 9.61512L8.19145 8.15886H9.62105C11.0239 8.15886 11.0535 8.15726 11.2045 8.07239C11.5114 7.8999 11.6246 7.53007 11.4645 7.22291C11.3579 7.01821 11.2299 6.91598 11.0192 6.86707C10.9348 6.84752 10.2633 6.8311 9.52687 6.8306L8.18789 6.82966L8.18617 5.45159C8.18437 4.00854 8.17096 3.87781 8.00599 3.69551C7.8398 3.51185 7.54604 3.4387 7.31433 3.5233Z" fill="#636363"/>
+                                </svg>
+                            </a>
+                            <a class="modal-cover-content-nav-button-close">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.00244 1L15.0024 15" stroke="#636363" stroke-width="1.6" stroke-linecap="round"/>
+                                    <path d="M15.002 1L1.00198 15" stroke="#636363" stroke-width="1.6" stroke-linecap="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-main">
+        <div class="footer-content">
+            <button class="footer-content-btn-save-draft">Save as Draft</button>
+            <button class="footer-content-btn-save-continue">
+                <label>Save and Continue</label>
+                <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.7071 8.70711C19.0976 8.31658 19.0976 7.68342 18.7071 7.29289L12.3431 0.928933C11.9526 0.538409 11.3195 0.538409 10.9289 0.928933C10.5384 1.31946 10.5384 1.95262 10.9289 2.34315L16.5858 8L10.9289 13.6569C10.5384 14.0474 10.5384 14.6805 10.9289 15.0711C11.3195 15.4616 11.9526 15.4616 12.3431 15.0711L18.7071 8.70711ZM-8.74228e-08 9L18 9L18 7L8.74228e-08 7L-8.74228e-08 9Z" fill="white"/>
+                </svg>
+            </button>
+        </div>
+    </footer>
+</main>
+<script src="../../script/script.js"></script>
+<script src="../../script/sidebar.js"></script>
+<script src="../../script/sendToReview.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F5F5;
+    color: #131C47
+}
+/*main*/
+.profile-main-block {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 30px;
+}
+/*profile photo block*/
+.profile-photo-main {
+    width: 412px;
+    height: 450px;
+
+    padding: 30px 25px;
+
+    background: #FFFFFF;
+    margin-right: 30px;
+}
+.profile-photo-title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #131C47;
+}
+.profile-photo-content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.profile-photo-content-avatar {
+
+}
+.profile-photo-content-btn-delete {
+    background: transparent;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 20px;
+
+    color: #636363;
+}
+.profile-photo-content-btn-update{
+    background: transparent;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 9px;
+
+    color: #00B140;
+}
+/*btn upload*/
+.profile-photo-button-upload-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    width: 362px;
+    height: 262px;
+
+    background: #F0F0F0;
+    border: 1px dashed #00B140;
+    border-radius: 6px;
+}
+/*profile info block*/
+.profile-information-main {
+    width: 658px;
+    height: 448px;
+
+    padding: 30px 25px;
+
+    background: #FFFFFF;
+}
+/*footer*/
+.profile-footer-main {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.profile-footer-cancel-btn {
+    width: 83px;
+    height: 40px;
+
+    background: #131C47;
+    border: 0;
+    border-radius: 6px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    margin-right: 10px;
+
+    transition: all .3s;
+}
+.profile-footer-cancel-btn:hover {
+    background: #243885;
+    cursor: pointer;
+}
+.profile-footer-save-btn {
+    width: 68px;
+    height: 40px;
+
+    background: #00B140;
+    border: 0;
+    border-radius: 6px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    transition: all .3s;
+}
+.profile-footer-save-btn:hover {
+    background: #00e854;
+    cursor: pointer;
+}

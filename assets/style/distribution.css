@@ -1,0 +1,862 @@
+.main-distribution-select-block {
+    margin-bottom: 30px;
+}
+.main-distribution-select-title {
+    width: 160px;
+    height: 17px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #131C47;
+}
+.main-distribution-select-title:after {
+    content: '*';
+    color: #F47960;
+}
+.main-distribution-select-subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #131C47;
+}
+.main-distribution-select-buttons {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    margin-top: 15px;
+}
+.main-distribution-select-button {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 296px;
+    width: 202px;
+
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    border-radius: 6px;
+
+    margin-right: 10px;
+
+    transition: all .3s;
+}
+.main-distribution-select-button.selected::before {
+    content: '';
+
+    background-image: url("../materials/icons/icon-checked-btn.png");
+    background-size: 100%;
+
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+/*BTN STARTED*/
+.main-distribution-select-started-btn-block1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 121px;
+    border-bottom: 1px solid #D6D6D6;
+
+    transition: all .3s;
+}
+.main-distribution-select-started-btn-block1 svg {
+    transition: all .3s;
+}
+.main-distribution-select-started-btn-block1 svg path {
+    transition: all .3s;
+}
+.main-distribution-select-started-btn-block1 h3 {
+    width: 83px;
+    height: 18px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #131C47;
+    margin: 15px 0 8px;
+
+    transition: all .3s;
+}
+.main-distribution-select-started-btn-block1 p {
+    width: 172px;
+    height: 9px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #131C47;
+
+    transition: all .3s;
+}
+.main-distribution-select-started-btn-block2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 173px;
+
+    transition: all .3s;
+}
+.main-distribution-select-started-btn-block2 h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+    width: 69px;
+
+    background: #E7FAD4;
+    border-radius: 6px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #131C47;
+
+    transition: all .3s;
+}
+.main-distribution-select-started-btn-block2 p {
+    width: 172px;
+    height: 25px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #636363;
+
+    margin: 28px 0 25px;
+
+    transition: all .3s;
+}
+.main-distribution-select-started-btn-block2-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all .3s;
+}
+.main-distribution-select-started-btn-block2-text svg {
+    margin-right: 10px;
+
+    transition: all .3s;
+}
+.main-distribution-select-started-btn-block2-text label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #636363;
+
+    transition: all .3s;
+}
+
+.main-distribution-select-button:hover {
+    border: 1px solid #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-started-btn-block1 {
+    border-bottom: 1px solid #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-started-btn-block1 svg path {
+    fill: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-started-btn-block1 h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-started-btn-block1 p {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-started-btn-block2 h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-started-btn-block2 p {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-started-btn-block2 .main-distribution-select-started-btn-block2-text label {
+    color: #00B140;
+    cursor: pointer;
+}
+
+.main-distribution-select-button.selected {
+    border: 1px solid #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-started-btn-block1 {
+    border-bottom: 1px solid #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-started-btn-block1 svg path {
+    fill: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-started-btn-block1 h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-started-btn-block1 p {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-started-btn-block2 h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-started-btn-block2 p {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-started-btn-block2 .main-distribution-select-started-btn-block2-text label {
+    color: #00B140;
+    cursor: pointer;
+}
+
+/*BTN STANDARD*/
+.main-distribution-select-standard-btn-block1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 121px;
+    border-bottom: 1px solid #D6D6D6;
+
+    transition: all .3s;
+}
+.main-distribution-select-standard-btn-block1 svg {
+    transition: all .3s;
+}
+.main-distribution-select-standard-btn-block1 svg path {
+    transition: all .3s;
+}
+.main-distribution-select-standard-btn-block1 h3 {
+    width: 83px;
+    height: 18px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #131C47;
+    margin: 15px 0 8px;
+
+    transition: all .3s;
+}
+.main-distribution-select-standard-btn-block1 p {
+    width: 172px;
+    height: 9px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #131C47;
+
+    transition: all .3s;
+}
+
+.main-distribution-select-standard-btn-block2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 173px;
+
+    transition: all .3s;
+}
+.main-distribution-select-standard-btn-block2 h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+    width: 69px;
+
+    background: #E7FAD4;
+    border-radius: 6px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #131C47;
+
+    transition: all .3s;
+}
+.main-distribution-select-standard-btn-block2 p {
+    position: relative;
+    bottom: 7px;
+
+    width: 160px;
+    height: 25px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #636363;
+
+    margin: 28px 0 25px;
+
+    transition: all .3s;
+}
+.main-distribution-select-standard-btn-block2-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all .3s;
+}
+.main-distribution-select-standard-btn-block2-text svg {
+    margin-right: 10px;
+
+    transition: all .3s;
+}
+.main-distribution-select-standard-btn-block2-text label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #636363;
+
+    transition: all .3s;
+}
+
+.main-distribution-select-button:hover {
+    border: 1px solid #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-standard-btn-block1 {
+    border-bottom: 1px solid #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-standard-btn-block1 svg path {
+    fill: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-standard-btn-block1 h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-standard-btn-block1 p {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-standard-btn-block2 h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-standard-btn-block2 p {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-standard-btn-block2 .main-distribution-select-standard-btn-block2-text label {
+    color: #00B140;
+    cursor: pointer;
+}
+
+.main-distribution-select-button.selected {
+    border: 1px solid #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-standard-btn-block1 {
+    border-bottom: 1px solid #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-standard-btn-block1 svg path {
+    fill: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-standard-btn-block1 h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-standard-btn-block1 p {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-standard-btn-block2 h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-standard-btn-block2 p {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-standard-btn-block2 .main-distribution-select-standard-btn-block2-text label {
+    color: #00B140;
+    cursor: pointer;
+}
+
+/*BTN STANDARD PLUS*/
+.main-distribution-select-standardPlus-btn-block1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 121px;
+    border-bottom: 1px solid #D6D6D6;
+
+    transition: all .3s;
+}
+.main-distribution-select-standardPlus-btn-block1 svg {
+    transition: all .3s;
+}
+.main-distribution-select-standardPlus-btn-block1 svg path {
+    transition: all .3s;
+}
+.main-distribution-select-standardPlus-btn-block1 h3 {
+    height: 18px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #131C47;
+    margin: 15px 0 8px;
+
+    transition: all .3s;
+}
+.main-distribution-select-standardPlus-btn-block1 p {
+    width: 172px;
+    height: 9px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #131C47;
+
+    transition: all .3s;
+}
+
+.main-distribution-select-standardPlus-btn-block2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 173px;
+
+    transition: all .3s;
+}
+.main-distribution-select-standardPlus-btn-block2 h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+    width: 69px;
+
+    background: #E7FAD4;
+    border-radius: 6px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #131C47;
+
+    transition: all .3s;
+}
+.main-distribution-select-standardPlus-btn-block2 p {
+    position: relative;
+    bottom: 5px;
+
+    width: 172px;
+    height: 25px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #636363;
+
+    margin: 28px 0 25px;
+
+    transition: all .3s;
+}
+.main-distribution-select-standardPlus-btn-block2-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all .3s;
+}
+.main-distribution-select-standardPlus-btn-block2-text svg {
+    margin-right: 10px;
+
+    transition: all .3s;
+}
+.main-distribution-select-standardPlus-btn-block2-text label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #636363;
+
+    transition: all .3s;
+}
+
+.main-distribution-select-button:hover {
+    border: 1px solid #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-standardPlus-btn-block1 {
+    border-bottom: 1px solid #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-standardPlus-btn-block1 svg path {
+    fill: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-standardPlus-btn-block1 h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-standardPlus-btn-block1 p {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-standardPlus-btn-block2 h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-standardPlus-btn-block2 p {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button:hover .main-distribution-select-standardPlus-btn-block2 .main-distribution-select-standardPlus-btn-block2-text label {
+    color: #00B140;
+    cursor: pointer;
+}
+
+.main-distribution-select-button.selected {
+    border: 1px solid #00B140;
+}
+.main-distribution-select-button.selected .main-distribution-select-standardPlus-btn-block1 {
+    border-bottom: 1px solid #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-standardPlus-btn-block1 svg path {
+    fill: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-standardPlus-btn-block1 h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-standardPlus-btn-block1 p {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-standardPlus-btn-block2 h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-standardPlus-btn-block2 p {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-select-button.selected .main-distribution-select-standardPlus-btn-block2 .main-distribution-select-standardPlus-btn-block2-text label {
+    color: #00B140;
+    cursor: pointer;
+}
+
+/*ASSIGN BLOCK*/
+.main-distribution-assign-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #131C47;
+    margin-bottom: 15px;
+}
+.main-distribution-assign-title:after {
+    content: '*';
+    color: #F47960;
+}
+.main-distribution-assign-buttons {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+
+    margin-bottom: 30px;
+}
+.main-distribution-assign-button {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 124px;
+    width: 202px;
+
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    border-radius: 6px;
+
+    padding: 15px 20px;
+    margin-right: 10px;
+
+    transition: all .3s;
+}
+.main-distribution-assign-button h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #131C47;
+    margin-bottom: 15px;
+
+    transition: all .3s;
+}
+.main-distribution-assign-button p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #636363;
+
+    transition: all .3s;
+}
+.main-distribution-assign-button:hover {
+    border: 1px solid #00B140;
+    cursor: pointer;
+}
+.main-distribution-assign-button:hover h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-assign-button:hover p {
+    color: #00B140;
+    cursor: pointer;
+}
+
+
+.main-distribution-assign-button.selected::before {
+    content: '';
+
+    background-image: url("../materials/icons/icon-checked-btn.png");
+    background-size: 100%;
+
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.main-distribution-assign-button.selected {
+    border: 1px solid #00B140;
+}
+.main-distribution-assign-button.selected h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.main-distribution-assign-button.selected p {
+    color: #00B140;
+    cursor: pointer;
+}
+
+/*Production*/
+.main-distribution-production-block {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+}
+.main-distribution-production-cost-block {
+    width: 308px;
+}
+.main-distribution-production-cost-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #131C47;
+}
+.main-distribution-production-cost-block {
+    width: 308px;
+    margin-right: 10px;
+}
+.main-distribution-production-cost-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #131C47;
+}
+.main-distribution-production-cost-info {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+}
+
+.main-distribution-production-price-block {
+    width: 308px;
+}
+.main-distribution-production-price-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #131C47;
+}
+.main-distribution-production-price-block {
+    width: 308px;
+}
+.main-distribution-production-price-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #131C47;
+}
+.main-distribution-production-price-title:after {
+    content: "*";
+    color: #F47960;
+}
+.main-distribution-production-cost-info {
+    height: 200px;
+    width: 308px;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    background: #F0F0F0;
+    border-radius: 6px;
+
+    padding: 20px;
+    margin-top: 15px;
+}
+.main-distribution-production-cost-info-categories p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+
+    color: #636363;
+}
+.main-distribution-production-cost-info-total p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10px;
+
+    color: #131C47;
+}
+
+.main-distribution-production-price-info {
+    height: 200px;
+    width: 308px;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+
+    background: #F0F0F0;
+    border-radius: 6px;
+
+    padding: 20px;
+    margin-top: 15px;
+}
+.main-distribution-production-price-info-categories p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+
+    color: #636363;
+}
+.main-distribution-production-price-info-total p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10px;
+
+    color: #131C47;
+}
+.distribution-production-price-info-total-input {
+    padding: 3px 10px;
+
+    height: 30px;
+    width: 45px;
+
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    border-radius: 6px;
+}
+.distribution-production-price-info-total-input:focus {
+    border-radius: 6px;
+    outline: none;
+}
+.distribution-production-price-info-total-input::placeholder {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

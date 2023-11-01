@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Inter', sans-serif;
+    color: #131C47
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #2f2f2f;
+}
+button {
+    padding: 0;
+    margin: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+/*main*/
+.main-book-format-content {
+    margin-left: 30px;
+}
+.book-format-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #131C47;
+}
+.book-format-title:after {
+    content: '*';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F47960;
+}
+
+/*Book Size*/
+.book-format-book-size-block {
+    margin-bottom: 30px;
+}
+.book-format-book-size-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.book-format-book-size-btn {
+    position: relative;
+    margin-right: 10px;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    border-radius: 10px;
+    height: 194px;
+    width: 202px;
+    padding: 24px 15px 20px;
+
+    transition: all .3s;
+}
+
+.book-format-book-size-btn svg rect {
+    transition: all .3s;
+}
+.book-format-book-size-btn h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #131C47;
+    padding: 20px 0 10px;
+
+    transition: all .3s;
+}
+.book-format-book-size-btn p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    leading-trim: both;
+    text-edge: cap;
+    text-align: center;
+
+    color: #636363;
+    transition: all .3s;
+}
+
+.book-format-book-size-btn:hover {
+    border: 1px solid #00B140;
+    cursor: pointer;
+}
+.book-format-book-size-btn:hover svg rect {
+    stroke: #00B140;
+    cursor: pointer;
+}
+.book-format-book-size-btn:hover h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.book-format-book-size-btn:hover p {
+    color: #00B140;
+    cursor: pointer;
+}
+
+.book-format-book-size-btn.selected::before {
+    content: '';
+
+    background-image: url("../materials/icons/icon-checked-btn.png");
+    background-size: 100%;
+
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.book-format-book-size-btn.selected {
+    border: 1px solid #00B140;
+}
+.book-format-book-size-btn.selected svg rect {
+    stroke: #00B140;
+    cursor: pointer;
+}
+.book-format-book-size-btn.selected h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.book-format-book-size-btn.selected p {
+    color: #00B140;
+    cursor: pointer;
+}
+
+/*Book Interior*/
+.main-format-book-interior-block {
+    margin-bottom: 30px;
+}
+.book-format-book-interior-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.book-format-book-interior-btn {
+    position: relative;
+    margin-right: 10px;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    border-radius: 10px;
+    height: 137px;
+    width: 202px;
+    padding: 20px 15px;
+
+
+    transition: all .3s;
+}
+.book-format-book-interior-btn svg path {
+    transition: all .3s;
+}
+.book-format-book-interior-btn h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    leading-trim: both;
+    text-edge: cap;
+    padding: 7px 0;
+    color: #131C47;
+
+    transition: all .3s;
+}
+.book-format-book-interior-btn p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    leading-trim: both;
+    text-edge: cap;
+    text-align: center;
+
+    color: #636363;
+
+    transition: all .3s;
+}
+
+.book-format-book-interior-btn:hover {
+    border: 1px solid #00B140;
+    cursor: pointer;
+}
+.book-format-book-interior-btn:hover svg .custom-path-1 {
+    fill: #00B140;
+    cursor: pointer;
+}
+.book-format-book-interior-btn:hover h3 {
+    cursor: pointer;
+    color: #00B140;
+}
+.book-format-book-interior-btn:hover p {
+    cursor: pointer;
+    color: #00B140;
+}
+
+.book-format-book-interior-btn.selected::before {
+    content: '';
+
+    background-image: url("../materials/icons/icon-checked-btn.png");
+    background-size: 100%;
+
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.book-format-book-interior-btn.selected {
+    border: 1px solid #00B140;
+}
+.book-format-book-interior-btn.selected svg .custom-path-1 {
+    fill: #00B140;
+    cursor: pointer;
+}
+.book-format-book-interior-btn.selected h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.book-format-book-interior-btn.selected p {
+    color: #00B140;
+    cursor: pointer;
+}
+
+/*Paper Type*/
+.main-format-paper-type-block {
+    margin-bottom: 30px;
+}
+.book-format-paper-type-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.book-format-paper-type-btn {
+    position: relative;
+    margin-right: 10px;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    border-radius: 10px;
+    height: 153px;
+    width: 202px;
+    padding: 20px 15px;
+
+    transition: all .3s;
+}
+.book-format-paper-type-btn svg path {
+    transition: all .3s;
+}
+.book-format-paper-type-btn h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    leading-trim: both;
+    text-edge: cap;
+    padding: 7px 0;
+    color: #131C47;
+
+    transition: all .3s;
+}
+.book-format-paper-type-btn p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    leading-trim: both;
+    text-edge: cap;
+    text-align: center;
+    color: #636363;
+
+    transition: all .3s;
+}
+
+.book-format-paper-type-btn:hover {
+    border: 1px solid #00B140;
+    cursor: pointer;
+}
+.book-format-paper-type-btn:hover svg .custom-path-1 {
+    fill: #00B140;
+    cursor: pointer;
+}
+.book-format-paper-type-btn:hover h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.book-format-paper-type-btn:hover p {
+    color: #00B140;
+    cursor: pointer;
+}
+
+.book-format-paper-type-btn.selected::before {
+    content: '';
+
+    background-image: url("../materials/icons/icon-checked-btn.png");
+    background-size: 100%;
+
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.book-format-paper-type-btn.selected {
+    border: 1px solid #00B140;
+}
+.book-format-paper-type-btn.selected svg .custom-path-1 {
+    fill: #00B140;
+    cursor: pointer;
+}
+.book-format-paper-type-btn.selected h3 {
+    color: #00B140;
+    cursor: pointer;
+}
+.book-format-paper-type-btn.selected p {
+    color: #00B140;
+    cursor: pointer;
+}
